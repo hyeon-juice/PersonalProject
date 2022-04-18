@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget
+{
+    color: silver;
+    background-color:  #302F2F; /*rgba(48, 48, 48, 1.0); rgba(88, 88, 88, 1.0);*/
+    selection-background-color:#78879b;
+    selection-color: black;
+    background-clip: border;
+    border-image: none;
+    outline: 0;
+    font-family: &quot;맑은 고딕&quot;;
+    font-size: 12px;
+}
+
+QHeaderView
+{
+    border: 1px transparent;
+    margin: 0px;
+    padding: 0px;
+}
+
+QHeaderView::section  {
+    background-color: #3A3939;
+    color: silver;
+    padding: 3px;
+    border: 1px solid #6c6c6c;
+    border-radius: 0px;
+    text-align: center;
+}
+</string>
+  </property>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
